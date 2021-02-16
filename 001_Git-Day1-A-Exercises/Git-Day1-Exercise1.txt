@@ -1,0 +1,1 @@
+1. Setting user.name  -->  $ git config --global user.name "Gregor Seegers"
