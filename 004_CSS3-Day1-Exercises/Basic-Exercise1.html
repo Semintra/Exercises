@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Basic-Exercise1.css">
     <title>DOM tree structure</title>
 </head>
 
@@ -14,24 +15,34 @@
 
 <body>
 
-    <!-- ### div tree left ### -->
+    <!-- ### DOM tree left ### -->
 
-    <div class="left" id="first"></div>
-    <div class="left" id="third"></div>
-    <p></p>
-    <span></span>
-    <h3></h3>
-    <p></p>
-    <div class="left" id="fourth"></div>
-    <h1></h1>
+    <div class="left" id="first">
+        <div class="left" id="third">
+            <p></p>
 
-    <!-- ### div tree right ### -->
+            <!-- ### Last level span ### -->
 
-    <div class="right" id="second"></div>
-    <div class="right" id="fifth"></div>
-    <p></p>
-    <div class="right" id="sixth"></div>
-    <img>
+            <span>
+                <h3></h3>
+                <p></p>
+            </span>
+        </div>
+        <div class="left" id="fourth">
+            <h1></h1>
+        </div>
+    </div>
+
+    <!-- ### DOM tree right ### -->
+
+    <div class="right" id="second">
+        <div class="right" id="fifth">
+            <p></p>
+        </div>
+        <div class="right" id="sixth">
+            <img>
+        </div>
+    </div>
 </body>
 
 <!-- ### Body ends ### -->
