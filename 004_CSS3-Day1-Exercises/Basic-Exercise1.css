@@ -1,0 +1,39 @@
+/* ### All divs border margin ###*/
+
+div {
+    border-style: dashed;
+    margin: 5px;
+}
+
+
+/* ### Don't display single p ### */
+
+#third>p {
+    display: none;
+}
+
+
+/* ### Don't display any h1 ### */
+
+h1 {
+    display: none;
+}
+
+
+/* ### Hide all the descendants of the div with the id "second". (Point 4) ### */
+
+#second>* {
+    display: none;
+}
+
+
+/* ### "Now display again ONLY the <img> elements on the page." (Point 5) ### */
+
+
+/* #second img {
+    display: inline !important;
+}
+
+/* ### This drives me crazy. Should only be done by using display(property). I tried
+pretty much everything to override this (inline/instyle/!important/override.css).
+Will get back to fix this. ### */
