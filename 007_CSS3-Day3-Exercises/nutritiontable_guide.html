@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   
+    <link href="https://fonts.googleapis.com/css?family=Lato&amp;display=swap" rel="stylesheet">
+    <title>Nutrition Table</title>
+    <style>
+    /* reset */
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        font-family: 'Lato', sans-serif;
+    }
+
+    #container {
+        margin: 0 auto;
+        border: solid 5px;
+        display: flex;
+        justify-content: left;
+        flex-flow: column;
+        width: 40%;
+    }
+
+    #innercontainer {
+        margin: 0.5% 3%;
+        font-weight: bold;
+    }
+
+    /* header part */
+
+    .heading, .bottomalign  {
+        
+        align-self: flex-end;
+
+    }
+
+
+    .cont {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cont p {
+        flex-grow: 1;
+        flex-basis: 30%;
+    }
+
+
+    .pcenter {
+        text-align: center;
+    }
+
+    .pleft {
+        text-align: left;
+    }
+
+    .pright {
+        text-align: right;
+    }
+
+    .pdentright {
+        text-align: left;
+        text-indent: 15px;
+    }
+
+    .right {
+        justify-content: flex-end
+    }
+
+
+    /*   lines */
+
+    .standardline {
+        border-bottom: solid 2px black;
+    }
+
+    .indentedline {
+        border-bottom: solid 2px;
+        margin-left: 15px;
+    }
+
+    .standardthickline {
+        border-bottom: solid 7px;
+    }
+
+    .thickline {
+        border-bottom: solid 15px;
+    }
+
+
+    /* bottom small print */
+    .smallprint {
+        display: flex;
+        justify-content: center;
+    }
+
+    .smallprint p {
+        flex-grow: 1;
+        flex-basis: 30%;
+    }
+
+    .smallheading {
+        display: flex;
+        justify-content: right;
+
+    }
+
+    .smallheading p {
+        width: 25%;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="innercontainer">
+            <h1>Nutrition Facts</h1>
+            <div>Serving Size 1 cup (50g)</div>
+            <div>Servings Per Container 10</div>
+            <hr class="thickline">
+            <div class="cont">
+                <p class="pleft bottomalign">Amount Per Serving</p>
+                <p class="pright bottomalign">Cereal</p>
+                <p class="pright bottomalign">with 1/2 <br> cup 1% <br> milk</p>
+            </div>
+            <hr class="standardline">
+            <div class="cont">
+                <p class="pleft">Calories</p><br>
+                <p class="pright">190</p>
+                <p class="pright">250</p>
+            </div>
+            <hr class="indentedline">
+            <div class="cont">
+                <p class="pdentright"> Calories from Fat</p>
+                <p class="pright">35</p>
+                <p class="pright">45</p>
+            </div>
+            <hr class="standardthickline">
+            <div class="cont">
+                <p class="pright">% Daily Value**</p>
+            </div>
+            <hr class="standardline">
+            <div class="cont">
+                <p class="pleft">Total Fat 4g*</p>
+                <p class="pright">6%</p>
+                <p class="pright">8%</p>
+            </div>
+            <hr class="indentedline">
+            <div class="cont">
+                <p class="pdentright"> Saturated Fat 1.5g</p>
+                <p class="pright">8%</p>
+                <p class="pright">13%</p>
+            </div>
+            <hr class="indentedline">
+            <div class="cont">
+                <p class="pdentright"> Trans Fat 0g</p>
+                <p class="pright">8%</p>
+                <p class="pright">13%</p>
+            </div>
+            <hr class="standardline">
+            <div class="cont">
+                <p class="pleft">Cholesterol 0mg</p>
+                <p class="pright">13%</p>
+                <p class="pright">15%</p>
+            </div>
+            <hr class="indentedline">
+            <div class="cont">
+                <p class="pdentright"> Dietary Fiber 6g</p>
+                <p class="pright">24%</p>
+                <p class="pright">24%</p>
+            </div>
+            <hr class="indentedline">
+            <div class="cont">
+                <p class="pdentright"> Sugars 11g</p>
+                <p class="pright"></p>
+                <p class="pright"></p>
+            </div>
+            <hr class="standardline">
+            <div class="cont">
+                <p class="pleft">Protein 4g</p>
+                <p class="pright"></p>
+                <p class="pright"></p>
+            </div>
+            <hr class="thickline">
+            <div class="cont">
+                <p class="pleft"> Vitamin A</p>
+                <p class="pright">0%</p>
+                <p class="pright">6%</p>
+            </div>
+            <hr class="standardline">
+            <div class="cont">
+                <p class="pleft"> Vitamin C</p>
+                <p class="pright">0%</p>
+                <p class="pright">2%</p>
+            </div>
+            <hr class="standardline">
+            <div class="cont">
+                <p class="pleft">Calcium</p>
+                <p class="pright">2%</p>
+                <p class="pright">15%</p>
+            </div>
+            <hr class="standardline">
+            <div class="cont">
+                <p class="pleft"> Iron</p>
+                <p class="pright">6%</p>
+                <p class="pright">6%</p>
+            </div>
+            <hr class="standardline">
+            <div class="cont">
+                <p>
+                    *Amount in Cereal with 1/2 cup 1% milk contributes an additional 60 calories (10 calories from Fat), 1g Total Fat (1g Saturated Fat), 10mg Cholesterol, 70 mg Sodium, 7 g
+                    <br>
+                    ** Percent Daily Values are based on a 3,000 calorie diet. Your daily values may
+                    be higher or lower depending on your calorie needs:
+                </p>
+            </div>
+            <div class="smallheading">
+                <p></p>
+                <p>Calories:</p>
+                <p>2,000</p>
+                <p>2,500</p>
+            </div>
+            <hr class="indentedline">
+            <div class="smallprint">
+                <p>Total Fat</p>
+                <p>Less than</p>
+                <p>65g</p>
+                <p>80g</p>
+            </div>
+            <div class="smallprint">
+                <p class="pdentright">Saturated Fat</p>
+                <p>Less than</p>
+                <p>20g</p>
+                <p>25g</p>
+            </div>
+            <div class="smallprint">
+                <p>Cholesterol</p>
+                <p>Less than</p>
+                <p>300mg</p>
+                <p>300mg</p>
+            </div>
+            <div class="smallprint">
+                <p>Sodium</p>
+                <p>Less than</p>
+                <p>2,400mg</p>
+                <p>2,400mg</p>
+            </div>
+            <div class="smallprint">
+                <p>Total Carbohydrate</p>
+                <p></p>
+                <p>300g</p>
+                <p>375g</p>
+            </div>
+            <div class="smallprint">
+                <p class="pdentright">Dietary Fieber</p>
+                <p></p>
+                <p>25g</p>
+                <p>30g</p>
+            </div>
+            <hr>
+            <div class="smallprint">
+                <p>Calories per gram:</p>
+            </div>
+            <div class="smallprint">
+                <p class="pright">Fat 9 ·</p>
+                <p class="pcenter">Carbohydrate 4 ·</p>
+                <p clas="pleft">Protein 4 ·</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
