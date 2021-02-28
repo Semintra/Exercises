@@ -1,0 +1,2 @@
+Basic Exercise1: Install Bootstrap and link stylesheet.
+Basic Exercise2: Link Bootstrap by adding their CDN.
