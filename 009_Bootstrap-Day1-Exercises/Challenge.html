@@ -12,14 +12,17 @@
     />
     <title>Bootstrap Day1 Challenge</title>
     <style>
-      body {
-        background-color: grey;
-      }
-      .box:before {
+      .box {
         content: "";
         display: block;
         background-color: brown;
-        padding-top: 100%; /* initial ratio of 1:1*/
+
+        /* ### initial ratio of 1:1 ### */
+
+        padding-top: 100%;
+      }
+      .container {
+        border: 1px solid black;
       }
     </style>
   </head>
@@ -28,12 +31,12 @@
       <div class="row">
         <div class="col">
           <div class="row bg-danger p-4 text-white strong">
-            <b>YouTube</b>
+            <h5><b>YouTube</b></h5>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-12 pt-4 ps-5 pe-5">
+      <div class="row bg-secondary">
+        <div class="col-12 pt-4 ps-5 pe-5 pb-5">
           <div class="row">
             <div class="col-12 bg-white">
               <div class="col-12 pt-3">
@@ -106,6 +109,13 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="row">
+          <div class="col-12 pt-3 pb-3 bg-white d-flex justify-content-center">
+            <h5><b>YouTube</b></h5>
           </div>
         </div>
       </div>
