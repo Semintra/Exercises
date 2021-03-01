@@ -10,12 +10,41 @@
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
     />
-    <title>Bootstrap Day1 Advanced Exercise</title>
+    <title>Bootstrap Day1 Challenge</title>
     <style>
-      .row {
-        height: 50px;
+      body {
+        background-color: grey;
+      }
+      .box:before {
+        content: "";
+        display: block;
+        background-color: brown;
+        padding-top: 100%; /* initial ratio of 1:1*/
       }
     </style>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="row g-3">
+        <div class="col-lg-2 col-md-4 col-6">
+          <div class="box"></div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <div class="box"></div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <div class="box"></div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <div class="box"></div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <div class="box"></div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <div class="box"></div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
