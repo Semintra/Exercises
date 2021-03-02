@@ -11,111 +11,47 @@
       crossorigin="anonymous"
     />
     <title>Bootstrap Day2 Basic Exercise</title>
+    <style>
+      body {
+        background-color: grey;
+      }
+    </style>
   </head>
   <body>
-    <p>
-      I've finished my five weeks at CodeFactory. Here are some of the things
-      I've learned so far:
-    </p>
+    <!-- ### Simple Nav-bar Top ### -->
 
-    <p>Git and <small>GitHub</small></p>
+    <nav class="navbar fixed-top navbar-expand-md bg-light">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link3</a>
+        </li>
+        <li class="nav-item"></li>
+        <a class="nav-link" href="#">Link4</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link5</a>
+        </li>
+      </ul>
+    </nav>
 
-    <ul>
-      <li>What is VC, Necessity, What is Git?</li>
+    <!--  1. <nav class="navbar" ... add class "navbar-expand-xl|lg|md|sm" ... bg-(color)>
+          2. <ul class="navbar-nav"> ... declare the list as navbar-nav
+          3. <li class="nav-item"> ... declare the list items as items of the nav-bar
+          4. <a class="nav-link"> ... put and declare links as nav-bar links. -->
 
-      <li>Installation & Config via Command Line</li>
+    <!-- ### Nav-bar bottom-fixed without list ### -->
 
-      <li>Commits, Best Practices, Standards</li>
-
-      <li>Get GitHub Repository</li>
-
-      <li>Cloning a project from GitHub to my local machine.</li>
-
-      <li>Publishing a website on GitHub pages.</li>
-    </ul>
-
-    <p>HTML</p>
-
-    <ul>
-      <li>Using HTML tags to create websites.</li>
-
-      <li>Indenting and organize HTML correctly.</li>
-
-      <li>Incorporating block elements.</li>
-
-      <li>Including inline elements.</li>
-
-      <li>Using both spans and divs.</li>
-
-      <li>Adding d IDs to style HTML with CSS.</li>
-    </ul>
-
-    <p>CSS</p>
-
-    <ul>
-      <li>Creating a stylesheet.</li>
-
-      <li>Using CSS selectors to specify an HTML element.</li>
-
-      <li>Writing CSS rules to style particular elements in my HTML.</li>
-
-      <li>
-        Floating elements to create columns, sidebars, and other alignments.
-      </li>
-
-      <li>Padding, margins, and the box model.</li>
-
-      <li>How CSS cascades to apply styles.</li>
-
-      <li>The importance of responsive design.</li>
-
-      <li>
-        How to use media queries to dynamically change the appearance of a site
-        based on the user's viewport.
-      </li>
-
-      <li>Flex Grid and Flex Box</li>
-    </ul>
-
-    <p>JavaScript</p>
-
-    <ul>
-      <li>JavaScript vs CSS3</li>
-
-      <li>What is programming</li>
-
-      <li>What is JavaScript how is used & rendered</li>
-
-      <li>What JS can do?</li>
-
-      <li>Variables & Data Types</li>
-
-      <li>Browser Input & Output (e.g. prompt)</li>
-
-      <li>Statements & comments</li>
-
-      <li>Conditions</li>
-
-      <li>Loops</li>
-
-      <li>Array & Sorting Algorithms, Chaining</li>
-
-      <li>Functions, Returning & Parameters</li>
-
-      <li>Error handle</li>
-
-      <li>Debugging (Debugger console log)</li>
-    </ul>
-
-    <p>Bootstrap</p>
-
-    <ul>
-      <li>Introduction to the Bootstrap</li>
-
-      <li>Downloading Bootstrap</li>
-
-      <li>Bootstrap CDN</li>
-    </ul>
+    <nav class="navbar fixed-bottom navbar-expand-md bg-info">
+      <nav class="navbar-nav">
+        <a class="nav-item nav-link" href="#">Link1</a>
+        <a class="nav-item nav-link" href="#">Link2</a>
+      </nav>
+    </nav>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
