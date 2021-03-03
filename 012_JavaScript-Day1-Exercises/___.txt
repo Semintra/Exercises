@@ -1,1 +1,2 @@
 Basic Exercise1: Internal JS -> "Hello from the browser." / "Hello from the console."
+Basic Exercise2: External JS -> Print "Hi, my name is Martin." in the console.
