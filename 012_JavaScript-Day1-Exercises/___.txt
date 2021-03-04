@@ -3,3 +3,5 @@ Basic Exercise2: External JS -> Print "Hi, my name is Martin." in the console.
 Basic Exercise3: Print a value using a variable to the console.
 Basic Exercise4: Create an array and print a string + value (array) in the console.
 Intermediate Exercise1: Sort an array and then print it.
+Intermediate Exercise2: Use push(), pop(), sort(), unshift() [array].
+Intermediate Exercise3: split() an array (new_array) and print the elements on separate lines.
