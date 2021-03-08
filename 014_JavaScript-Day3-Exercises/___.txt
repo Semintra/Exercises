@@ -1,0 +1,1 @@
+Basic Exercise1: Write a simple program, that prints cold/moderate weather (random number) and shows a picture.
