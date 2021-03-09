@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ### Link Bootstrap 5.0 CSS ### -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <!-- ### Link own CSS stylesheet ### -->
+
+    <link rel="stylesheet" href="Basic-Exercise1.css" />
+    <title>JavaScript Day4 Basic Exercise2</title>
+  </head>
+  <body>
+    <!-- ### Form-container begins here ### -->
+
+    <div class="container">
+      <div class="row mt-3">
+        <div class="col d-flex flex-column gap-2 form">
+          <input type="text" placeholder="First name" id="firstname" />
+          <input type="text" placeholder="Last name" id="lastname" />
+          <input type="number" placeholder="Age" id="age" />
+          <label>Profession:</label>
+          <select id="profession">
+            <option value=""></option>
+            <option value="IT">IT</option>
+            <option value="Hospitality">Hospitality</option>
+          </select>
+          <button onclick="extract()">EXTRACT</button>
+          <div id="output"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ### Link own JavaScript file ### -->
+
+    <script type="text/javascript" src="Basic-Exercise2.js"></script>
+  </body>
+</html>

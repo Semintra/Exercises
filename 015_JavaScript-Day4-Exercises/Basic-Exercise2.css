@@ -1,0 +1,11 @@
+.form {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100px;
+          flex: 0 0 100px;
+}
+
+#output {
+  height: 100px;
+  border: 1px solid black;
+}
+/*# sourceMappingURL=Basic-Exercise2.css.map */
