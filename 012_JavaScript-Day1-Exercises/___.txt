@@ -1,7 +1,7 @@
-Basic Exercise1: Internal JS -> "Hello from the browser." / "Hello from the console."
-Basic Exercise2: External JS -> Print "Hi, my name is Martin." in the console.
-Basic Exercise3: Print a value using a variable to the console.
-Basic Exercise4: Create an array and print a string + value (array) in the console.
-Intermediate Exercise1: Sort an array and then print it.
-Intermediate Exercise2: Use push(), pop(), sort(), unshift() [array].
-Intermediate Exercise3: split() an array (new_array) and print the elements on separate lines.
+BASIC EXERCISE 1: Internal JS -> "Hello from the browser." / "Hello from the console."
+BASIC EXERCISE 2: External JS -> Print "Hi, my name is Martin." in the console.
+BASIC EXERCISE 3: Print a value using a variable to the console.
+BASIC EXERCISE 4: Create an array and print a string + value (array) in the console.
+INTERMEDIATE EXERCISE 1: Sort an array and then print it.
+INTERMEDIATE EXERCISE 2: Use push(), pop(), sort(), unshift() [array].
+INTERMEDIATE EXERCISE 3: split() an array (new_array) and print the elements on separate lines.

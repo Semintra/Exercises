@@ -1,0 +1,2 @@
+BASIC EXERCISE 1: Create a form, extract the values and change their colors depending on their length.
+BASIC EXERCISE 2: Extend Basic-Exercise1 -> add profession and change bg-color depending on the value.

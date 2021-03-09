@@ -1,2 +1,2 @@
-Basic Exercise: Create different Nav-bars.
-Advanced Exercise: Rebuild a given template (GUIDE.PNG -> use vertical pills).
+BASIC EXERCISE: Create different Nav-bars.
+ADVANCED EXERCISE: Rebuild a given template (GUIDE.PNG -> use vertical pills).
