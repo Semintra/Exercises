@@ -1,2 +1,4 @@
-Basic Exercise1: Write a simple program, that prints cold/moderate weather (random number) depending on the given value.
-Basic Exercise2: Create a program to find the highest value in an array.
+BASIC EXERCISE1: Write a simple program, that prints cold/moderate weather (random number) depending on the given value.
+BASIC EXERCISE2: Create a program to find the highest value in an array.
+BASIC EXERCISE3: Add responsive_mobile-website/more_messages/picture_output to exercise1.
+
