@@ -31,3 +31,7 @@ function extract() {
     document.getElementById("output").style.backgroundColor = "transparent";
   }
 }
+
+// ### Add EventListener to HTML-Button ###
+
+document.getElementById("extButton").addEventListener("click", extract);
