@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>JavaScript</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <input type="submit" class="btn">
+        <input type="submit" class="btn">
+        <input type="submit" class="btn">
+        <input type="submit" class="btn">
+        <script src="script.js"></script>
+    </body>
+</html>
+9:57
+script.js
+9:57
+var btns = document.getElementsByClassName("btn");
+console.log(btns);
+function functionName(y){
+    console.log(y);
+}
+for(let i = 0 ; i < btns.length ; i++){
+    btns[i].addEventListener("click", function(){
+        functionName(i);
+    })
+}
+// document.getElementsByClassName("btn")[0].addEventListener("click",()=>{
+//     functionName(0);
+//     alert("Hello 1")
+// })
+// document.getElementsByClassName("btn")[1].addEventListener("click",()=>{
+//     functionName(1);
+//     alert("Hello 1")
+// })
+// document.getElementsByClassName("btn")[2].addEventListener("click",()=>{
+//     functionName(2);
+//     alert("Hello 1")
+// })
+// document.getElementsByClassName("btn")[3].addEventListener("click",()=>{
+//     functionName(3);
+//     alert("Hello 1")
+// })
+
+
+
+
+
+
+
+Send a message to students
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
