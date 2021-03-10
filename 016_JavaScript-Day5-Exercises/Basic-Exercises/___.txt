@@ -1,0 +1,2 @@
+BASIC EXERCISE 1: Create 3 different objects for 3 different themes (car/animal/person) with each having an output-function (browser).
+BASIC EXERCISE 2:
