@@ -1,2 +1,2 @@
-BASIC EXERCISE 1: Create 3 different objects for 3 different themes (car/animal/person) with each having an output-function (browser).
-BASIC EXERCISE 2:
+BASIC EXERCISE 1: Create 3 different objects per theme (car/animal/person) - with each having an output-function (browser).
+BASIC EXERCISE 2: Create 3 different objects per theme using classes (car/animal/person) - with each having an output-function (browser).

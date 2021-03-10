@@ -1,1 +1,22 @@
-/* No CSS *//*# sourceMappingURL=Basic-Exercise2.css.map */
+.container {
+  padding: 0.3em;
+}
+
+#car1,
+#car2,
+#car3 {
+  background-color: #fffacb;
+}
+
+#animal1,
+#animal2,
+#animal3 {
+  background-color: #b7b8ff;
+}
+
+#person1,
+#person2,
+#person3 {
+  background-color: #b7fff5;
+}
+/*# sourceMappingURL=Basic-Exercise2.css.map */
