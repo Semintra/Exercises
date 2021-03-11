@@ -1,8 +1,6 @@
-// ### Parse JSON-file ###
+// ### Build table ###
 
 var employeeTable = document.getElementById("employeeTable");
-
-// ### Build table ###
 
 for (i = 0; i < employees.length; i++) {
   employeeTable.innerHTML +=

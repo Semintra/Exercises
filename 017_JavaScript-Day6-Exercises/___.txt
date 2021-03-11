@@ -1,2 +1,3 @@
 BASIC EXERCISE: Parse JSON-formatted text to use its objects for printing a sentence within the browser.
 INTERMEDIATE EXERCISE: Parse a JSON-file and put the data in a scripted table.
+ADVANCED EXERCISE: Build a page with books from a JSON-file (including cover-image + read-status).
