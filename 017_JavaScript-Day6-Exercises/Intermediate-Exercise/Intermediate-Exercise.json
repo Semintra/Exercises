@@ -1,0 +1,82 @@
+let employees = [
+    {
+        "id": 1,
+        "first_name": "Caresa",
+        "last_name": "Checo",
+        "email": "ccheco0@omniture.com",
+        "job_title": "Project Manager",
+        "salary": "€18768,12"
+    },
+    {
+        "id": 2,
+        "first_name": "Corliss",
+        "last_name": "Astill",
+        "email": "castill1@domainmarket.com",
+        "job_title": "Business Systems Development Analyst",
+        "salary": "€5289,23"
+    },
+    {
+        "id": 3,
+        "first_name": "Ann",
+        "last_name": "Hardie",
+        "email": "ahardie2@wp.com",
+        "job_title": "Tax Accountant",
+        "salary": "€26232,48"
+    },
+    {
+        "id": 4,
+        "first_name": "Cal",
+        "last_name": "Ubach",
+        "email": "cubach3@msn.com",
+        "job_title": "Administrative Assistant III",
+        "salary": "€34147,29"
+    },
+    {
+        "id": 5,
+        "first_name": "Trista",
+        "last_name": "Eam",
+        "email": "team4@globo.com",
+        "job_title": "Product Engineer",
+        "salary": "€35484,41"
+    },
+    {
+        "id": 6,
+        "first_name": "Beatrice",
+        "last_name": "Redon",
+        "email": "bredon5@msn.com",
+        "job_title": "Help Desk Operator",
+        "salary": "€23202,84"
+    },
+    {
+        "id": 7,
+        "first_name": "Aleda",
+        "last_name": "Berard",
+        "email": "aberard6@hp.com",
+        "job_title": "Junior Executive",
+        "salary": "€49405,04"
+    },
+    {
+        "id": 8,
+        "first_name": "Ado",
+        "last_name": "Fonso",
+        "email": "afonso7@yahoo.co.jp",
+        "job_title": "Senior Developer",
+        "salary": "€13267,24"
+    },
+    {
+        "id": 9,
+        "first_name": "Hanni",
+        "last_name": "Aslett",
+        "email": "haslett8@springer.com",
+        "job_title": "Statistician III",
+        "salary": "€24249,19"
+    },
+    {
+        "id": 10,
+        "first_name": "Arthur",
+        "last_name": "Renault",
+        "email": "arenault9@wordpress.com",
+        "job_title": "Analog Circuit Design manager",
+        "salary": "€33764,87"
+    }
+]
