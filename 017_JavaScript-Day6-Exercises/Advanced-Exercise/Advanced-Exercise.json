@@ -3,60 +3,60 @@ let booklist = `[
         "title": "Muppet Movie, The",
         "author": "Alyda Walisiak",
         "read": false,
-        "image": "http://dummyimage.com/230x163.bmp/dddddd/000000"
+        "image": "./images/book01.jpg"
     },
     {
         "title": "Moll Flanders",
         "author": "Osbourn Yeiles",
         "read": true,
-        "image": "http://dummyimage.com/242x118.jpg/cc0000/ffffff"
+        "image": "./images/book02.jpg"
     },
     {
         "title": "Trip to Italy, The",
         "author": "Christian Pencott",
         "read": false,
-        "image": "http://dummyimage.com/198x119.bmp/dddddd/000000"
+        "image": "./images/book03.jpg"
     },
     {
         "title": "A Chinese in a Coma",
         "author": "Zared Bowery",
         "read": false,
-        "image": "http://dummyimage.com/245x149.bmp/dddddd/000000"
+        "image": "./images/book04.jpg"
     },
     {
         "title": "Mortal Kombat",
         "author": "Eva Preddy",
         "read": false,
-        "image": "http://dummyimage.com/184x195.bmp/dddddd/000000"
+        "image": "./images/book05.jpg"
     },
     {
         "title": "Intimate Relations",
         "author": "Waldemar Martinet",
         "read": true,
-        "image": "http://dummyimage.com/156x182.jpg/ff4444/ffffff"
+        "image": "./images/book06.jpg"
     },
     {
         "title": "The Magnet",
         "author": "Tyrone Valeri",
         "read": true,
-        "image": "http://dummyimage.com/166x196.bmp/dddddd/000000"
+        "image": "./images/book07.jpg"
     },
     {
         "title": "Sacred Heart",
         "author": "Melina Cheevers",
         "read": false,
-        "image": "http://dummyimage.com/192x229.png/ff4444/ffffff"
+        "image": "./images/book08.jpg"
     },
     {
         "title": "Killer of Sheep",
         "author": "Chrisse Peppett",
         "read": true,
-        "image": "http://dummyimage.com/112x136.png/dddddd/000000"
+        "image": "./images/book09.jpg"
     },
     {
         "title": "Bianca Beauchamp: All Access",
         "author": "Marina Yakuntzov",
         "read": false,
-        "image": "http://dummyimage.com/161x244.bmp/dddddd/000000"
+        "image": "./images/book10.jpg"
     }
 ]`
